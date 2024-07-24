@@ -10836,5 +10836,5 @@ textarea.form-control-lg {
 }
 
 .bg-nosotros{
-  background-image: url(assets/gggrain.svg);
+  background-image: url("assets/gggrain.svg");
 }
