@@ -4206,6 +4206,11 @@ textarea.form-control-lg {
   color: var(--bs-card-color);
 }
 
+.card-body-nosotros {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
@@ -10833,7 +10838,4 @@ textarea.form-control-lg {
 
 .letter-spacing{
   letter-spacing: 9px;
-}
-body{
-  background-image: linear-gradient(black, white);;
 }
