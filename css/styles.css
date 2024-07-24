@@ -10834,3 +10834,7 @@ textarea.form-control-lg {
 .letter-spacing{
   letter-spacing: 9px;
 }
+
+.bg-nosotros{
+  background-image: url(assets/gggrain.svg);
+}
