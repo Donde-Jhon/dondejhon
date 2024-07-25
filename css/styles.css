@@ -4163,6 +4163,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
+  --bs-card-bg-image:url("../assets/gggrain.svg");
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
@@ -4209,6 +4210,7 @@ textarea.form-control-lg {
 .card-body-nosotros {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  background-image: var(--bs-card-bg-image);
 }
 
 .card-title {
