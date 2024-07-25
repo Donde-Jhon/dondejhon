@@ -4212,6 +4212,7 @@ textarea.form-control-lg {
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   background-image: var(--bs-card-bg-image);
   background-size: cover;
+  opacity: 0.5;
 }
 
 .card-title {
