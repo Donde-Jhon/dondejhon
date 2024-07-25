@@ -10843,3 +10843,8 @@ textarea.form-control-lg {
 .letter-spacing{
   letter-spacing: 9px;
 }
+
+.blacker{
+  color: #000;
+  opacity: 1;
+}
