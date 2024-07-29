@@ -10860,3 +10860,8 @@ textarea.form-control-lg {
   color: #000;
   opacity: 1;
 }
+
+.carousel-adjusted{
+  size: 80%;
+  margin: 30px  auto;
+}
