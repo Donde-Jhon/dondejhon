@@ -4221,6 +4221,20 @@ textarea.form-control-lg {
   }  
 }
 
+.card-body-contactanos {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  background-image: var(--bs-card-bg-image);
+  background-size: cover;
+  
+}
+
+@media (min-width: 992px) {
+  .card-body-contactanos{
+    height: 300px;
+  }  
+}
+
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
@@ -10862,6 +10876,7 @@ textarea.form-control-lg {
 }
 
 .carousel-adjusted{
-  size: 80%;
+  size: 70%;
   margin: 30px  auto;
+
 }
