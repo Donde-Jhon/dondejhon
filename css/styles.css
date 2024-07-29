@@ -4224,7 +4224,6 @@ textarea.form-control-lg {
 .card-body-contactanos {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  background-image: var(--bs-card-bg-image);
   background-size: cover;
   
 }
