@@ -10875,8 +10875,13 @@ textarea.form-control-lg {
 }
 
 .carousel-adjusted{
-  width: 70%;
-  height: 70%;
   margin: 30px  auto;
+}
 
+@media (min-width:992px) {
+  .carousel-adjusted{
+    width: 70%;
+    height: 70%;
+    margin: 30px  auto;
+  }
 }
