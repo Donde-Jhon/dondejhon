@@ -10877,21 +10877,10 @@ textarea.form-control-lg {
 .carousel-adjusted{
   margin: 30px  auto;
 }
-
-.carousel-adjusted .carousel-pic{
-  height: 300px;
-  width: 500px;
-}
-
 @media (min-width:992px) {
   .carousel-adjusted{
     width: 70%;
     height: 70%;
     margin: 30px  auto;
-  }
-
-  .carousel-adjusted .carousel-pic{
-    height: 300px;
-    width: 500px;
   }
 }
