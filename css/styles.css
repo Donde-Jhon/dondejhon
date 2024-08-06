@@ -4301,14 +4301,13 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 90%;
 }
 
 .card-img,
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
-  margin: 15px;
 }
 
 .card-img,
