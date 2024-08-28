@@ -1,9 +1,13 @@
 .headerns{
     height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .circle-back{
-    
-
+    align-self: flex-start;
+    height: 100px;
+    width: 100px;
     background-image: linear-gradient(to bottom right, red, yellow);
 }
