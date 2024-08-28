@@ -7,8 +7,8 @@
 
 .circle-back{
 
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 
-    background-image: linear-gradient(to bottom right, red, blue);
+    background-image: linear-gradient(to bottom right, rgb(53, 51, 167), rgb(26, 26, 180));
 }
