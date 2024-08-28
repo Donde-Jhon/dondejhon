@@ -7,7 +7,7 @@
 // Use this file to add JavaScript to your project
 
 
-var typed3 = new Typed('#typed', {
+var typed3 = new Typed('.typed', {
     strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
     typeSpeed: 0,
     backSpeed: 0,
