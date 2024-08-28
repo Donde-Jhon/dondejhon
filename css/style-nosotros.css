@@ -9,13 +9,13 @@
     height: 300px;
     width: 300px;
     background-image: linear-gradient(to bottom right, rgb(53, 51, 167), rgb(40, 40, 51));
-    padding: 50px;
     z-index: 1;
 }
 
 .circle-front{
     height: 200px;
     width: 200px;
+    margin: 50px;
     background-image: linear-gradient(to bottom right, rgb(233, 232, 255), rgb(236, 236, 236));
     z-index: 3;
 }
