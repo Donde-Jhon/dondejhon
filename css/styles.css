@@ -10889,3 +10889,17 @@ textarea.form-control-lg {
     margin: 30px  auto;
   }
 }
+
+#tgana{
+  text-align: center;
+  text-decoration: overline;
+}
+
+#gangan{
+  border-radius: 10px;
+}
+
+.imgan{
+  width: 35%;
+  height: 35%;
+}
