@@ -3,6 +3,8 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(216, 216, 216);
+
 }
 
 .circle-back{
@@ -24,12 +26,14 @@
     font-size: 2rem;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 80%;
     
 }
 
 @media (min-width: 1000px){
     .h1ns{
         font-size: 4rem;
+        
     }
 
     .headerns{
