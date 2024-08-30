@@ -8,7 +8,7 @@
 
 
 var typed3 = new Typed('.typed', {
-    strings: ['leche', 'pato', 'sancocho'],
+    strings: ['familia', 'pato', 'sancocho'],
     typeSpeed: 0,
     backSpeed: 0,
     smartBackspace: true, // this is a default
