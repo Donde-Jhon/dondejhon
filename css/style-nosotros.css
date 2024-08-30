@@ -1,9 +1,9 @@
 .headerns{
-    height: 100vh;
+    height: 70vh;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(220, 223, 233);
 
 }
 
@@ -39,4 +39,8 @@
     .headerns{
         flex-direction: row;
     }
+}
+
+.valores{
+    height: 100vh;
 }
