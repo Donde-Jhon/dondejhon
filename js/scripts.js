@@ -10,7 +10,7 @@
 var typed3 = new Typed('.typed', {
     strings: ['familia', 'pato', 'sancocho'],
     typeSpeed: -1,
-    backSpeed: 0,
+    backSpeed: -1,
     smartBackspace: true, // this is a default
     loop: true
   });
