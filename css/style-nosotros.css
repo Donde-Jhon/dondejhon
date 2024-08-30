@@ -21,8 +21,18 @@
 }
 
 .h1ns{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+
+@media (min-width: 800px){
+    .h1ns{
+        font-size: 2rem;
+    }
+
+    .headerns{
+        flex-direction: column;
+    }
 }
