@@ -43,4 +43,23 @@
 
 .valores{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+
+.h1vl{
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration-line: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 1000px){
+    .h1vl{
+        font-size: 4rem;
+        
+    }
 }
