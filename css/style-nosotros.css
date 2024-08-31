@@ -40,7 +40,7 @@
 
     .headerns{
         flex-direction: row;
-        height: 70px;
+        height: 70vh;
         padding: 50px;
     }
 }
@@ -61,17 +61,6 @@
     text-align: center;
 }
 
-@media (min-width: 1000px){
-    .h1vl{
-        font-size: 4rem;
-        
-    }
-
-    .contenedorvl{
-        flex-direction: row;
-        gap: 30px;
-    }
-}
 
 .contenedorvl{
   display: flex;
@@ -85,4 +74,16 @@
     margin: 25px auto;
     background-color: rgb(218, 218, 218);
     border-radius: 1em;
+}
+
+@media (min-width: 1000px){
+    .h1vl{
+        font-size: 4rem;
+        
+    }
+
+    .contenedorvl{
+        flex-direction: row;
+        gap: 30px;
+    }
 }
