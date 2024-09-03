@@ -85,12 +85,17 @@
 }
 
 @media (min-width: 1000px){
+
+    .valores{
+        height: 100vh;
+    }
+
     .h1vl{
         font-size: 4rem;
         
     }
 
-    .h1vl{
+    .h2vl{
         font-size: 2rem;
         
     }
