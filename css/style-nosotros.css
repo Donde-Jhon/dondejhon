@@ -46,7 +46,7 @@
 }
 
 .valores{
-    height: 150vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
