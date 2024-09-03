@@ -1,5 +1,5 @@
 .headerns{
-    height: 170vh;
+    height: 100vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
 }
 
 .valores{
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -65,7 +65,7 @@
 .contenedorvl{
   display: flex;
   flex-direction: column;
-
+  gap: 15px;
 }
 
 .boxvl{
