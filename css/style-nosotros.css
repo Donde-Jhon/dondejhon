@@ -61,6 +61,14 @@
     text-align: center;
 }
 
+.h2vl{
+    color: rgb(63, 63, 63);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
 
 .contenedorvl{
   display: flex;
@@ -79,6 +87,11 @@
 @media (min-width: 1000px){
     .h1vl{
         font-size: 4rem;
+        
+    }
+
+    .h1vl{
+        font-size: 2rem;
         
     }
 
