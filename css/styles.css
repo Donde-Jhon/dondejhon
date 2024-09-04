@@ -10903,3 +10903,13 @@ textarea.form-control-lg {
   width: 35%;
   height: 35%;
 }
+
+#vidtien {
+  width: 600px;
+  height: 500px;
+}
+
+.card-body-ubicacion iframe {
+  width: 100%;
+  height: 100%;
+}
