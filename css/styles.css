@@ -10892,16 +10892,18 @@ textarea.form-control-lg {
 
 #tgana{
   text-align: center;
-  text-decoration: overline;
 }
 
 #gangan{
   border-radius: 10px;
+  background-color: rgb(220, 223, 233);
+  margin-bottom: 10px;
 }
 
 .imgan{
   width: 35%;
   height: 35%;
+  margin-bottom: 10px;
 }
 
 #vidtien {
