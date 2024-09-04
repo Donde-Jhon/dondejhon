@@ -10909,7 +10909,12 @@ textarea.form-control-lg {
   height: 500px;
 }
 
-.card-body-ubicacion iframe {
-  width: 100%;
-  height: 100%;
+.card-body-ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Agrega estas propiedades si el contenedor padre es un flex container */
+  flex-grow: 1;
+  flex-shrink: 0;
 }
+
