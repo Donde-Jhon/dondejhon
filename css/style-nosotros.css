@@ -1,6 +1,7 @@
 .headerns{
     height: 100vh;
-    padding: 5px;
+    padding: 6px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     background-color: #dcdfe9;
