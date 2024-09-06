@@ -15,7 +15,7 @@
     font-size: 3rem;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 80%;
+    max-width: 100%;
     margin: 20px auto;
     
 }
@@ -23,7 +23,7 @@
 @media (min-width: 1000px){
     .h1ns{
         font-size: 4rem;
-        
+        max-width: 80%;
     }
 
     .headerns{
