@@ -8,21 +8,9 @@
     justify-content: center;
 }
 
-.circle-back{
-    height: 300px;
-    width: 300px;
-
-    background-image: linear-gradient(to bottom right, rgb(53, 51, 167), rgb(40, 40, 51));
-    z-index: 1;
+.img-circle{
+    size: 200px;
 }
-
-.circle-front{
-    height: 250px;
-    width: 250px;
-    background-image: linear-gradient(to bottom right, rgb(233, 232, 255), rgb(236, 236, 236));
-    z-index: 3;
-}
-
 .h1ns{
     font-size: 3rem;
     font-weight: 800;
