@@ -1,5 +1,5 @@
 .headerns{
-    height: 100vh;
+    height: 70vh;
     padding: 6px;
     margin: auto;
     display: flex;
@@ -21,6 +21,19 @@
     
 }
 
+@media (min-width: 700px){
+    .h1ns{
+        font-size: 4rem;
+        max-width: 80%;
+    }
+
+    .headerns{
+        flex-direction: row;
+        height: 50vh;
+        padding: 50px;
+    }
+}
+
 @media (min-width: 1000px){
     .h1ns{
         font-size: 4rem;
@@ -35,11 +48,11 @@
 }
 
 .valores{
-    height: 180vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 70px;
+    padding: 15px;
 }
 
 .h1vl{
@@ -66,8 +79,8 @@
 }
 
 .boxvl{
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 340px;
     margin: auto;
     background-color: rgb(218, 218, 218);
     border-radius: 1em;
@@ -78,6 +91,7 @@
 
     .valores{
         height: 100vh;
+        padding: 50px;
     }
 
     .h1vl{
@@ -96,12 +110,44 @@
 
     .contenedorvl{
         flex-direction: row;
+  
+    }
+
+    .boxvl{
+        height: 340px;
+        width: 400px;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 700px){
+
+    .valores{
+        height: 140vh;
+    }
+
+    .h1vl{
+        font-size: 4rem;
+        
+    }
+
+    .h2vl{
+        font-size: 2rem;
+        color: rgb(81, 81, 81);
+      font-weight: 500;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      
+    }
+
+    .contenedorvl{
+        flex-direction: column;
         gap: 30px;
     }
 
     .boxvl{
-        height: 320px;
-        width: 300px;
+        height: 340px;
+        width: 500px;
         padding: 15px;
     }
 }
