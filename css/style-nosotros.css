@@ -1,5 +1,5 @@
 .headerns{
-    height: 70vh;
+    height: 80vh;
     padding: 6px;
     margin: auto;
     display: flex;
@@ -21,18 +21,7 @@
     
 }
 
-@media (min-width: 700px){
-    .h1ns{
-        font-size: 4rem;
-        max-width: 80%;
-    }
 
-    .headerns{
-        flex-direction: row;
-        height: 50vh;
-        padding: 50px;
-    }
-}
 
 @media (min-width: 1000px){
     .h1ns{
@@ -48,7 +37,7 @@
 }
 
 .valores{
-    height: 130vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -120,37 +109,6 @@
     }
 }
 
-@media (min-width: 700px){
-
-    .valores{
-        height: 140vh;
-    }
-
-    .h1vl{
-        font-size: 4rem;
-        
-    }
-
-    .h2vl{
-        font-size: 2rem;
-        color: rgb(81, 81, 81);
-      font-weight: 500;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: center;
-      
-    }
-
-    .contenedorvl{
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .boxvl{
-        height: 340px;
-        width: 500px;
-        padding: 15px;
-    }
-}
 
 .djcolor{
     color: #000;
