@@ -146,3 +146,44 @@
 .svgns{
     align-self: self-start;
 }
+
+.empleados{
+    background-color:#533e7c;
+    color: #dcdfe9;
+    text-align:center;
+}
+
+.empleados  .h1em{
+    font-size: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.contenedorem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h1em{
+    font-size: 4rem;
+}
+
+
+@media (min-width: 1000px){
+    .empleados{
+        background-color: #533e7c;
+        color: #dcdfe9;
+        text-align:center;
+    }
+
+    .empleados  .h1em{
+        font-size: 6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-bottom: 10vh;
+    }
+
+
+}
