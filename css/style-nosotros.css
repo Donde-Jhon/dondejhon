@@ -148,7 +148,7 @@
 }
 
 .empleados{
-    background-color:#533e7c;
+    background-color:#8fa4bf;
     color: #dcdfe9;
     text-align:center;
 }
@@ -170,7 +170,7 @@
 
 @media (min-width: 1000px){
     .empleados{
-        background-color:#533e7c;
+        background-color:#8fa4bf;
         color: #dcdfe9;
         text-align:center;
     }
