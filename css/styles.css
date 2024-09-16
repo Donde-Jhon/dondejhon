@@ -10936,7 +10936,7 @@ textarea.form-control-lg {
 /* Image */
 .card-img-1 {
   background-size: cover;
-  background-image: url(assets/contactanos/Tienda\ Germanies.jpg);
+  background-image: url(/assets/contactanos/Tienda\ Germanies.jpg);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -11010,7 +11010,7 @@ textarea.form-control-lg {
 
 .card-img-2 {
   background-size: cover;
-  background-image: url(assets/contactanos/Tienda\ La\ Torre.jpg);
+  background-image: url(/assets/contactanos/Tienda\ La\ Torre.jpg);
   height: 100%;
   width: 100%;
   position: absolute;
