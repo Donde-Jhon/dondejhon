@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 18, 2024 at 02:40 AM
+-- Generation Time: Sep 22, 2024 at 02:16 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -42,7 +42,6 @@ CREATE TABLE `cart` (
 CREATE TABLE `orders` (
   `ord_id` int(11) NOT NULL,
   `pro_id` int(11) DEFAULT NULL,
-  `use_id` int(11) DEFAULT NULL,
   `uor_id` int(11) DEFAULT NULL,
   `ord_date` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -96,6 +95,14 @@ CREATE TABLE `users` (
   `use_pass` int(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`use_id`, `rol_id`, `use_name`, `use_pass`) VALUES
+(789327, 2, 'jhojan', 123),
+(79147614, 1, 'a', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -134,7 +141,6 @@ ALTER TABLE `cart`
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`ord_id`),
   ADD KEY `pro_id` (`pro_id`),
-  ADD KEY `use_id` (`use_id`),
   ADD KEY `uor_id` (`uor_id`);
 
 --
@@ -206,7 +212,6 @@ ALTER TABLE `cart`
 --
 ALTER TABLE `orders`
   ADD CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`pro_id`) REFERENCES `products` (`pro_id`),
-  ADD CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`use_id`) REFERENCES `users` (`use_id`),
   ADD CONSTRAINT `orders_ibfk_3` FOREIGN KEY (`uor_id`) REFERENCES `users_orders` (`uor_id`);
 
 --

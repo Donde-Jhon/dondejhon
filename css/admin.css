@@ -1,1 +1,33 @@
 /* admin styles */
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.item-nav-admin {
+    position: absolute;
+}
+
+.item-1 {
+    right: 1vh;
+}
+
+.item-2 {
+    right: 5vh;
+}
+
+.image-nav-admin {
+    width: 3vh;
+    height: 3vh;
+    object-fit: cover;
+}
+
+
+/* media screen  */
+
+@media screen and (max-width: 990px) {
+    .item-nav-admin {
+        position: static;
+    }
+}

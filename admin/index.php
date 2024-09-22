@@ -1,3 +1,23 @@
+<?php
+ob_start();
+
+session_start();
+if (isset($_SESSION["role"]) && $_SESSION["id"]) {
+    if ($_SESSION["role"] === 2) {
+        $id = $_SESSION["id"];
+        $role = $_SESSION["role"];
+    } else {
+        header("Location: ../db/close/close.php");
+        exit;
+    }
+} else {
+    header("Location: ../db/close/close.php");
+    exit;
+}
+
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -5,39 +25,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Administrador - DondeJhon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/admin.css">
-    <style>
-        .navbar-nav {
-            display: flex;
-            align-items: center;
-        }
-
-        .item-nav-admin {
-            position: absolute;
-        }
-
-        .item-1 {
-            right: 1vh;
-        }
-
-        .item-2 {
-            right: 5vh;
-        }
-
-        .image-nav-admin {
-            width: 3vh;
-            height: 3vh;
-            object-fit: cover;
-        }
-
-        /* media screen  */
-        @media screen and (max-width: 990px) {
-            .item-nav-admin {
-                position: static;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -50,16 +40,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Usuarios</a>
+                            <a class="nav-link active" aria-current="page" href="index.php?p=users">Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Productos</a>
+                            <a class="nav-link active" href="index.php?p=products">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Pedidos</a>
+                            <a class="nav-link active" href="index.php?p=orders">Pedidos</a>
                         </li>
                         <li class="item-nav-admin item-1">
-                            <img src="../assets/icons/off.png" class="image-nav-admin" alt="">
+                            <a href="../db/close/close.php"><img src="../assets/icons/off.png" class="image-nav-admin" alt=""></a>
                         </li>
                         <li class="item-nav-admin item-2">
                             Jhojan esteban lopez <img src="../assets/icons/person.png" class="image-nav-admin" alt="">
@@ -70,7 +60,28 @@
         </nav>
     </header>
     <main class="container-fluid d-flex flex-column align-items-center">
+        <?php
+        if (isset($_GET['p'])) {
+            $page = $_GET['p'];
+            switch ($page) {
+                case 'users':
+                    include('./users.php');
+                    break;
+                case 'products':
+                    include('./products.php');
+                    break;
+                case 'orders':
+                    include('./orders.php');
+                    break;
 
+                default:
+                    header('Location: index.php?p=users');
+                    break;
+            }
+        } else {
+            header('Location: index.php?p=users');
+        }
+        ?>
     </main>
     <footer class="bg-body-tertiary text-center text-lg-start">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
@@ -83,3 +94,6 @@
 </body>
 
 </html>
+<?php
+ob_end_flush();
+?>
