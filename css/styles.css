@@ -4200,11 +4200,6 @@ textarea.form-control-lg {
   border-top: 0;
 }
 
-.card-body {
-  flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
-}
 
 .card-body-nosotros {
   flex: 1 1 auto;
