@@ -4236,7 +4236,6 @@ textarea.form-control-lg {
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
-  left: 50%;
   flex-direction: column;
   min-width: 0;
   height: var(--bs-card-height);
