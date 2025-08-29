@@ -11268,4 +11268,54 @@ p {
 
 
 
+/* TIENDA GERMANIESSSS*/
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      background-color: #f9f9f9;
+    }
+
+    .titulo {
+      font-size: 2.5em;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+    }
+
+    .titulo span {
+      display: inline-block;
+    }
+
+    .amarillo { color: yellow; }
+    .azul { color: blue; }
+    .rojo { color: red; }
+
+    .linea-dividida {
+      width: 300px;
+      height: 4px;
+      margin: 10px auto 0;
+      display: flex;
+    }
+
+    .linea-dividida div {
+      flex: 1;
+      height: 100%;
+    }
+
+    .amarillo-bg { background-color: yellow; }
+    .azul-bg { background-color: blue; }
+    .rojo-bg { background-color: red; }
+
+
+
+
+
+
+
+
+
+
+
+
  
