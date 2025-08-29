@@ -4232,7 +4232,7 @@ textarea.form-control-lg {
   --bs-card-height: ;
   --bs-card-color: ;
   --bs-card-bg-image:url("../assets/gggrain.svg");
-  --bs-card-bg: #fff;
+  --bs-card-bg: #f7f0f0;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
