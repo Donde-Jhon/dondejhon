@@ -4247,9 +4247,8 @@ textarea.form-control-lg {
   --bs-card-bg: #f7f0f0;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
-  position: relative;
-  flex-direction: column;
-  min-width: 0;
+  flex: 1 1 auto;
+  width: 48%;
   height: var(--bs-card-height);
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
@@ -11299,9 +11298,9 @@ body {
       display: inline-block;
     }
 
-    .amarillo { color: yellow; }
-    .azul { color: blue; }
-    .rojo { color: red; }
+    .amarillo { color: #F5C827; }
+    .azul { color: #0a58ca; }
+    .rojo { color: #ef0012; }
 
     .linea-dividida {
       width: 300px;
