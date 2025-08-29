@@ -4241,7 +4241,7 @@ textarea.form-control-lg {
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
-  --bs-card-height: ;
+  --bs-card-cap-c: height;
   --bs-card-color: ;
   --bs-card-bg-image:url("../assets/gggrain.svg");
   --bs-card-bg: #f7f0f0;
